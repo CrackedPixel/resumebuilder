@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.App {
+  padding: 4vw 8vw 0 8vw;
+}
+
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+header > span > a {
+  margin: 0 0.5vw;
+}
+
+.cat_header {
+  /* border-top: 2px solid black;
+  border-bottom: 1px solid black; */
+  margin-top: 2vw;
+  display: flex;
+  /* width: 100%; */
+  flex-flow: column nowrap;
+}
+
+.cat_header > h2 {
+  text-transform: uppercase;
+  border-top: 0.15vw solid black;
+  border-bottom: 0.075vw solid black;
+  padding-bottom: 0.2vw;
+}
+
+.arr__list {
+  display: flex;
+  flex-flow: column nowrap;
+  /* margin-bottom: 1vw; */
+}
+
+.arr__list > li {
+  /* list-style-position: inside; */
+  padding-left: 1vw;
+  margin-left: 1vw;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  /* align-content: space-between; */
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.padL {
+  padding-left: 3.5vw;
+}
+
+.worked {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 0.8vw;
+}
+
+.worked > .spaced_between > h3, .worked > .spaced_between > h4 {
+  /* color: red !important; */
+  margin-left: -0.8vw;
+}
+
+.spaced_between {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.url {
+  color: #1155cc;
+}
+
+.light {
+  opacity: 0.7;
+}
+
+.mtop {
+  margin-top: 1vw;
+}
+
+.size2 {
+  font-weight: 300;
+}
+
+.proj__container {
+  margin-left: 0.8vw;
+}
+
+.proj__container > h3 {
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  margin-left: -0.7vw;
+}
+
+.proj__container > h4 {
+  margin-left: -0.7vw;
+}
+
+
+h3 {
+  font-weight: bold !important;
+}
+
+.spaced_between > h3 {
+  font-size: 2vw;
+}
+
+.spaced_between > h4 {
+  font-size: 1.8vw;
+  font-weight: 500;
+}
+
+.proj__container > h3 {
+  font-size: 2vw;
+}
+
+.proj__container > h4 {
+  font-size: 1.8vw;
+}
+
+.cat_header > h2 {
+  font-size: 1.6vw;
+}
+
+header > h1 {
+  font-size: 3.3vw;
+}
+
+header > span, header > a {
+  font-size: 1.8vw;
+}
+
+.arr__list > li {
+  font-size: 1.8vw;
+}
